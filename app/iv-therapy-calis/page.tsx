@@ -18,9 +18,9 @@ import Footer from "@/components/Footer";
 import Logo from "@/components/Logo";
 
 export const metadata: Metadata = {
-  title: "IV Therapy in Çalış Beach | Medical Assessment & Hydration Care",
+  title: "IV Therapy in Çalış Beach | Medical Hydration Care",
   description:
-    "English-speaking medical assessment for dehydration and possible IV therapy in Çalış Beach and Fethiye. IV treatment is provided only when clinically appropriate after examination.",
+    "English-speaking medical assessment for dehydration and possible IV therapy in Çalış Beach and Fethiye. Treatment is provided only when clinically appropriate after examination.",
   alternates: {
     canonical: "https://calisdoctor.com/iv-therapy-calis",
   },
@@ -55,7 +55,7 @@ const assessmentBenefits = [
   {
     title: "Patient Safety",
     description:
-      "IV treatment is offered only when clinically appropriate for the patient.",
+      "IV treatment is considered only when clinically appropriate for the patient.",
     icon: ShieldCheck,
   },
 ];
@@ -68,7 +68,7 @@ const possibleReasons = [
   "Dizziness or weakness linked to dehydration",
   "Dry mouth and reduced urination",
   "Medical assessment after prolonged illness",
-  "Other conditions identified during examination",
+  "Other concerns identified during examination",
 ];
 
 const process = [
@@ -82,7 +82,7 @@ const process = [
     number: "02",
     title: "Doctor Examination",
     description:
-      "The doctor assesses symptoms, hydration status and the patient's overall condition.",
+      "The doctor assesses symptoms, hydration status and the patient's general condition.",
   },
   {
     number: "03",
@@ -228,9 +228,8 @@ export default function IvTherapyCalisPage() {
 
               <div className="mt-8 grid gap-4">
                 <div className="rounded-2xl border border-white/15 bg-white/10 p-5">
-                  <p className="text-sm font-bold text-cyan-100">
-                    First Step
-                  </p>
+                  <p className="text-sm font-bold text-cyan-100">First Step</p>
+
                   <p className="mt-1 text-xl font-black">
                     Medical examination
                   </p>
@@ -240,6 +239,7 @@ export default function IvTherapyCalisPage() {
                   <p className="text-sm font-bold text-cyan-100">
                     Treatment Decision
                   </p>
+
                   <p className="mt-1 text-xl font-black">
                     Based on clinical findings
                   </p>
@@ -249,6 +249,7 @@ export default function IvTherapyCalisPage() {
                   <p className="text-sm font-semibold text-slate-500">
                     Phone and WhatsApp
                   </p>
+
                   <p className="mt-1 text-xl font-black">
                     +90 551 935 48 00
                   </p>
@@ -271,9 +272,10 @@ export default function IvTherapyCalisPage() {
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-slate-600">
-              Mild dehydration may be managed with oral fluids, while more
-              serious cases can require medical treatment. The correct option
-              depends on the examination. :contentReference[oaicite:1]{index=1}
+              Mild dehydration may sometimes be managed with oral fluids,
+              while more serious cases can require medical treatment. The
+              correct option depends on the patient&apos;s symptoms and
+              examination.
             </p>
           </div>
 
@@ -343,6 +345,7 @@ export default function IvTherapyCalisPage() {
                   size={20}
                   className="mt-0.5 shrink-0 text-emerald-500"
                 />
+
                 <span className="font-bold text-slate-700">{reason}</span>
               </div>
             ))}
@@ -371,6 +374,7 @@ export default function IvTherapyCalisPage() {
 
               <div>
                 <p className="font-black">Share complete information</p>
+
                 <p className="mt-2 leading-7 text-slate-600">
                   Mention vomiting, diarrhoea, fluid intake, urination,
                   existing medical conditions and current medication.
@@ -391,6 +395,7 @@ export default function IvTherapyCalisPage() {
 
                 <div>
                   <h3 className="text-xl font-black">{step.title}</h3>
+
                   <p className="mt-3 leading-7 text-slate-600">
                     {step.description}
                   </p>
@@ -442,6 +447,7 @@ export default function IvTherapyCalisPage() {
                     size={20}
                     className="mt-0.5 shrink-0 text-red-600"
                   />
+
                   <span className="font-bold text-slate-800">{sign}</span>
                 </div>
               ))}
@@ -456,6 +462,7 @@ export default function IvTherapyCalisPage() {
             <div>
               <div className="flex items-center gap-2 text-cyan-300">
                 <MapPin size={19} />
+
                 <p className="text-sm font-black uppercase tracking-[0.24em]">
                   Çalış Beach & Fethiye
                 </p>
