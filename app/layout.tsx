@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "24/7 English-speaking doctor service in Çalış Beach and Fethiye. Hotel visits, home visits, urgent medical care, routine consultations and healthcare for tourists and international residents.",
+    "24/7 English-speaking private doctor service in Çalış Beach and Fethiye. Hotel visits, home visits, urgent medical care and consultations for tourists, expats and international residents.",
 
   keywords: [
     "Calis Doctor",
@@ -36,8 +36,11 @@ export const metadata: Metadata = {
     "hotel doctor Calis",
     "hotel doctor Fethiye",
     "home visit doctor Calis",
+    "home visit doctor Fethiye",
     "private doctor Calis",
+    "private doctor Fethiye",
     "emergency doctor Calis",
+    "urgent doctor Calis",
     "doctor near me Calis",
     "doctor for tourists Fethiye",
     "expat doctor Fethiye",
@@ -47,6 +50,7 @@ export const metadata: Metadata = {
     "food poisoning doctor Calis",
     "ear infection doctor Calis",
     "family doctor Fethiye",
+    "blood test Calis",
   ],
 
   authors: [
@@ -58,10 +62,12 @@ export const metadata: Metadata = {
 
   creator: "Calis Doctor",
   publisher: "Calis Doctor",
-
   applicationName: "Calis Doctor",
-
   category: "Healthcare",
+
+  verification: {
+    google: "67UxkbUUlwla4McO99Vgg-lcFpMReZFz3iKzQBSYj6c",
+  },
 
   alternates: {
     canonical: "https://calisdoctor.com",
@@ -75,13 +81,13 @@ export const metadata: Metadata = {
     title:
       "Calis Doctor | English Speaking Doctor in Çalış Beach & Fethiye",
     description:
-      "Private medical care for tourists, expats and international residents in Çalış Beach and Fethiye. Hotel visits, home visits and urgent medical assistance.",
+      "Private English-speaking medical care for tourists, expats and international residents in Çalış Beach and Fethiye. Hotel visits, home visits and urgent medical assistance.",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Calis Doctor - English speaking medical care in Çalış Beach",
+        alt: "Calis Doctor medical care in Çalış Beach and Fethiye",
       },
     ],
   },
@@ -153,7 +159,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-[#f3fbfb] text-slate-950 antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} min-h-screen overflow-x-hidden bg-[#f3fbfb] text-slate-950 antialiased`}
       >
         {children}
       </body>
