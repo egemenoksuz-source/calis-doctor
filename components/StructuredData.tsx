@@ -1,8 +1,12 @@
+const BASE_URL = "https://calisdoctor.com";
+const PHONE_DISPLAY = "+90 551 935 48 00";
+const PHONE_E164 = "+905519354800";
+
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://calisdoctor.com/#website",
-  url: "https://calisdoctor.com/",
+  "@id": `${BASE_URL}/#website`,
+  url: `${BASE_URL}/`,
   name: "Calis Doctor",
   alternateName: [
     "Çalış Doctor",
@@ -13,29 +17,32 @@ const websiteSchema = {
     "24/7 English-speaking private doctor service in Çalış Beach and Fethiye.",
   inLanguage: "en-GB",
   publisher: {
-    "@id": "https://calisdoctor.com/#organization",
+    "@id": `${BASE_URL}/#medical-clinic`,
   },
 };
 
-const organizationSchema = {
+const medicalClinicSchema = {
   "@context": "https://schema.org",
-  "@type": ["Organization", "MedicalBusiness"],
-  "@id": "https://calisdoctor.com/#organization",
+  "@type": ["MedicalClinic", "MedicalBusiness", "LocalBusiness"],
+  "@id": `${BASE_URL}/#medical-clinic`,
   name: "Calis Doctor",
   alternateName: "Çalış Doctor",
-  url: "https://calisdoctor.com/",
-  logo: {
-    "@type": "ImageObject",
-    url: "https://calisdoctor.com/images/logo.png",
-  },
-  image: "https://calisdoctor.com/images/og-image.jpg",
+  url: `${BASE_URL}/`,
+
   description:
-    "English-speaking private doctor service providing hotel visits, home visits and urgent medical assistance in Çalış Beach and Fethiye.",
+    "24/7 English-speaking private doctor service providing hotel visits, home visits and urgent medical assistance in Fethiye.",
+
+  telephone: PHONE_E164,
+  priceRange: "$$",
+
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Fethiye",
+    addressRegion: "Muğla",
+    addressCountry: "TR",
+  },
+
   areaServed: [
-    {
-      "@type": "Place",
-      name: "Çalış Beach",
-    },
     {
       "@type": "City",
       name: "Fethiye",
@@ -45,75 +52,113 @@ const organizationSchema = {
       name: "Muğla",
     },
   ],
-  availableLanguage: ["English", "Turkish"],
-  medicalSpecialty: "https://schema.org/PrimaryCare",
-  sameAs: [],
-};
 
-const medicalServiceSchema = {
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  "@id": "https://calisdoctor.com/#medical-service",
-  name: "Calis Doctor",
-  url: "https://calisdoctor.com/",
-  description:
-    "Private medical assistance for tourists, expats and international residents in Çalış Beach and Fethiye.",
-  provider: {
-    "@id": "https://calisdoctor.com/#organization",
+  availableLanguage: ["English", "Turkish"],
+
+  medicalSpecialty: {
+    "@type": "MedicalSpecialty",
+    name: "Primary Care",
   },
-  areaServed: [
-    "Çalış Beach",
-    "Fethiye",
-    "Muğla",
-  ],
-  availableService: [
+
+  openingHoursSpecification: [
     {
-      "@type": "MedicalProcedure",
-      name: "Hotel Doctor Visit",
-      description:
-        "English-speaking doctor visits for patients staying at hotels in Çalış Beach and Fethiye.",
-    },
-    {
-      "@type": "MedicalProcedure",
-      name: "Home Doctor Visit",
-      description:
-        "Private doctor visits at homes, villas and holiday accommodation.",
-    },
-    {
-      "@type": "MedicalProcedure",
-      name: "Urgent Medical Assistance",
-      description:
-        "Medical assessment and assistance for urgent health concerns.",
-    },
-    {
-      "@type": "MedicalProcedure",
-      name: "IV Therapy",
-      description:
-        "Medical evaluation and IV therapy when clinically appropriate.",
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Wednesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday",
+        "https://schema.org/Saturday",
+        "https://schema.org/Sunday",
+      ],
+      opens: "00:00",
+      closes: "23:59",
     },
   ],
+
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      telephone: PHONE_E164,
+      contactType: "customer service",
+      availableLanguage: ["English", "Turkish"],
+      areaServed: "TR",
+    },
+    {
+      "@type": "ContactPoint",
+      telephone: PHONE_E164,
+      contactType: "emergency",
+      availableLanguage: ["English", "Turkish"],
+      areaServed: "Fethiye",
+    },
+  ],
+
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Medical Services",
+    itemListElement: [
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "MedicalService",
+          name: "Hotel Doctor Visit",
+          description:
+            "English-speaking doctor visits for patients staying at hotels in Fethiye.",
+          areaServed: "Fethiye",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "MedicalService",
+          name: "Home Doctor Visit",
+          description:
+            "Private doctor visits at homes, villas and holiday accommodation in Fethiye.",
+          areaServed: "Fethiye",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "MedicalService",
+          name: "Urgent Medical Assistance",
+          description:
+            "Medical assessment and assistance for urgent health concerns in Fethiye.",
+          areaServed: "Fethiye",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "MedicalService",
+          name: "IV Therapy",
+          description:
+            "Medical evaluation and IV therapy when clinically appropriate.",
+          areaServed: "Fethiye",
+        },
+      },
+    ],
+  },
+
+  sameAs: [],
 };
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "@id": "https://calisdoctor.com/#breadcrumb",
+  "@id": `${BASE_URL}/#breadcrumb`,
   itemListElement: [
     {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://calisdoctor.com/",
+      item: `${BASE_URL}/`,
     },
   ],
 };
 
-const schemas = [
-  websiteSchema,
-  organizationSchema,
-  medicalServiceSchema,
-  breadcrumbSchema,
-];
+const schemas = [websiteSchema, medicalClinicSchema, breadcrumbSchema];
 
 export default function StructuredData() {
   return (
@@ -130,3 +175,5 @@ export default function StructuredData() {
     </>
   );
 }
+
+export { PHONE_DISPLAY, PHONE_E164 };
