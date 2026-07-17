@@ -1,0 +1,24 @@
+{
+  "name": "Calis Doctor",
+  "short_name": "Calis Doctor",
+  "description": "24/7 English-speaking doctor service in Çalış Beach and Fethiye.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3fbfb",
+  "theme_color": "#0891b2",
+  "orientation": "portrait-primary",
+  "lang": "en-GB",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

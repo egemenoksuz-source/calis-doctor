@@ -8,7 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-
     sitemap: "https://calisdoctor.com/sitemap.xml",
     host: "https://calisdoctor.com",
   };
