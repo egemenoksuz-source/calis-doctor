@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import StructuredData from "@/components/StructuredData";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -44,7 +45,6 @@ export const metadata: Metadata = {
     "doctor near me Calis",
     "doctor for tourists Fethiye",
     "expat doctor Fethiye",
-    "international resident doctor Fethiye",
     "24/7 doctor Calis",
     "IV therapy Calis",
     "food poisoning doctor Calis",
@@ -70,13 +70,13 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: "https://calisdoctor.com",
+    canonical: "/",
   },
 
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://calisdoctor.com",
+    url: "https://calisdoctor.com/",
     siteName: "Calis Doctor",
     title:
       "Calis Doctor | English Speaking Doctor in Çalış Beach & Fethiye",
@@ -104,9 +104,11 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
+      noimageindex: false,
       "max-image-preview": "large",
       "max-snippet": -1,
       "max-video-preview": -1,
@@ -117,6 +119,7 @@ export const metadata: Metadata = {
     icon: [
       {
         url: "/favicon.ico",
+        sizes: "any",
       },
       {
         url: "/icon.png",
@@ -161,6 +164,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen overflow-x-hidden bg-[#f3fbfb] text-slate-950 antialiased`}
       >
+        <StructuredData />
         {children}
       </body>
     </html>
