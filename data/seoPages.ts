@@ -618,81 +618,195 @@ export const seoPages: SeoPage[] = [
     slug: "iv-therapy-fethiye",
     title: "IV Therapy in Fethiye",
     metaTitle:
-      "IV Therapy Fethiye | Medical IV Drip at Hotel or Home",
+      "IV Therapy Fethiye | Doctor-Assessed IV Drip at Hotel or Home",
     metaDescription:
-      "Doctor-assessed IV therapy in Fethiye for dehydration and illness. Mobile medical visits to hotels, villas and apartments.",
+      "Doctor-assessed IV therapy in Fethiye for dehydration, vomiting and diarrhoea. English-speaking mobile medical care at hotels, villas and apartments.",
     eyebrow: "Doctor-Assessed IV Treatment",
     heading: "Medical IV Therapy in Fethiye",
     introduction:
-      "IV therapy may be considered for patients experiencing dehydration, persistent vomiting, diarrhoea or difficulty drinking enough fluids. At Calis Doctor, IV treatment is only provided following an appropriate medical assessment.",
+      "IV therapy may be considered for patients who are dehydrated, unable to keep fluids down or experiencing weakness caused by vomiting, diarrhoea, heat exposure or another illness. Calis Doctor provides English-speaking medical assessment at hotels, villas, apartments and private residences across Fethiye and Çalış Beach. IV treatment is only offered when a doctor determines that it is clinically appropriate and safe for the individual patient.",
     sections: [
       {
-        title: "IV treatment based on medical need",
+        title: "IV therapy begins with a medical assessment",
         content: [
-          "IV fluids are not suitable for every patient. A doctor must first assess your symptoms, general condition and medical history.",
-          "Where clinically appropriate, IV fluids may support hydration and recovery. Additional medication is only administered when medically indicated.",
+          "An IV drip should not be treated as a general wellness product or ordered without a medical examination. Before considering intravenous fluids, the doctor reviews your symptoms, medical history, current medication, allergies and any existing conditions that may affect treatment.",
+          "The assessment may include checking blood pressure, pulse, temperature, oxygen saturation, hydration status and other relevant observations. The doctor will also ask about vomiting, diarrhoea, urine output, fluid intake, abdominal pain and warning signs that could indicate a more serious condition.",
+          "Many patients can recover with oral fluids, rest and symptom-based treatment. IV therapy is considered only when the potential benefit is greater than the risk and home-based care is appropriate.",
         ],
       },
       {
-        title: "Mobile IV therapy",
+        title: "Mobile IV treatment at your accommodation",
         content: [
-          "Eligible patients may receive treatment at their hotel, villa or apartment, depending on the clinical assessment.",
-          "The medical team will monitor your condition during the treatment and provide aftercare instructions.",
+          "When medically suitable, IV treatment may be provided in a hotel room, villa, apartment or private home. This can be helpful for patients who feel too weak to travel or who would prefer a private consultation in familiar surroundings.",
+          "The medical team prepares the necessary equipment, starts the IV line using appropriate clinical precautions and monitors the patient during treatment. The type and volume of fluid depend on the medical assessment rather than a standard package.",
+          "Patients receive clear aftercare advice, including hydration guidance, dietary recommendations, medication instructions when relevant and warning signs that require further medical attention.",
         ],
       },
       {
-        title: "When further care may be required",
+        title: "IV fluids for dehydration",
         content: [
-          "Severe dehydration, ongoing inability to keep fluids down, blood in vomit or stool, severe abdominal pain or altered consciousness may require hospital treatment.",
-          "The doctor will recommend further assessment when home-based care is not appropriate.",
+          "Dehydration can occur after repeated vomiting, diarrhoea, high temperatures, prolonged sun exposure, reduced fluid intake or excessive alcohol consumption. Common symptoms include dry mouth, dizziness, weakness, headache, dark urine and reduced urination.",
+          "Mild dehydration can often be managed with oral rehydration solutions. IV fluids may be considered when the patient cannot drink enough, repeatedly vomits oral fluids or shows clinical signs that oral hydration is not sufficient.",
+          "Severe dehydration, confusion, fainting, very low urine output, rapid deterioration or unstable vital signs may require hospital treatment rather than an accommodation-based IV drip.",
+        ],
+      },
+      {
+        title: "IV therapy for vomiting and diarrhoea",
+        content: [
+          "Vomiting and diarrhoea can cause rapid fluid and electrolyte loss, particularly during hot weather. The doctor assesses the likely cause, duration and severity of symptoms before deciding on treatment.",
+          "IV fluids may support hydration, but they do not automatically treat the underlying cause. Depending on the examination, the patient may also need symptom-relieving medication, laboratory tests, imaging or hospital assessment.",
+          "Blood in vomit or stool, severe abdominal pain, persistent high fever, confusion, fainting or worsening symptoms require urgent medical review and may not be suitable for hotel-based treatment.",
+        ],
+      },
+      {
+        title: "Food poisoning and gastroenteritis care",
+        content: [
+          "Food poisoning and gastroenteritis are common reasons tourists request medical help in Fethiye. Symptoms may include nausea, vomiting, diarrhoea, stomach cramps, fever, weakness and loss of appetite.",
+          "The doctor evaluates hydration, abdominal findings and general condition. Most uncomplicated cases improve with fluids, rest and supportive care, but some patients may need additional investigation or referral.",
+          "Antibiotics are not appropriate for every case of diarrhoea or food poisoning. Treatment is selected according to the clinical assessment rather than automatically prescribing medication.",
+        ],
+      },
+      {
+        title: "Is IV therapy suitable for everyone?",
+        content: [
+          "No. IV fluids can be inappropriate or risky for some patients, including people with certain heart, kidney or fluid-balance problems. This is why a medical history and examination are essential before treatment.",
+          "The doctor may decide that oral rehydration is safer, that additional tests are required or that the patient should be assessed in a hospital. Patients should disclose all known medical conditions, allergies, pregnancy and regular medication.",
+          "Children, older adults, pregnant patients and people with chronic illness may require additional caution and earlier referral depending on their symptoms and examination findings.",
+        ],
+      },
+      {
+        title: "What happens during an IV therapy visit?",
+        content: [
+          "When requesting assistance, provide your name, exact accommodation location and a short description of your symptoms. A Google Maps location pin is particularly useful for villas and private apartments.",
+          "During the appointment, the doctor performs an assessment and explains whether IV therapy is recommended. If treatment proceeds, the patient is observed throughout the infusion and the IV site is checked regularly.",
+          "After treatment, the doctor explains what to drink and eat, how to use any recommended medication and when to seek additional care. Improvement after an IV drip does not remove the need for follow-up if symptoms return or worsen.",
+        ],
+      },
+      {
+        title: "When hospital treatment is safer",
+        content: [
+          "Accommodation-based care is intended for suitable, non-life-threatening cases. Some symptoms require urgent hospital assessment, blood tests, imaging, monitoring or treatments that cannot safely be provided in a hotel room.",
+          "Seek immediate emergency assistance for loss of consciousness, severe breathing difficulty, chest pain, signs of stroke, seizures, uncontrolled bleeding, major trauma or a rapidly worsening condition. In Turkey, call 112 for an ambulance.",
+          "Hospital review may also be necessary for severe abdominal pain, blood in stool or vomit, persistent inability to drink, confusion, significant dehydration or concerning vital signs.",
+        ],
+      },
+      {
+        title: "IV therapy service areas in Fethiye",
+        content: [
+          "Calis Doctor provides mobile medical visits across Çalış Beach, central Fethiye and surrounding accommodation areas. Visits may be arranged for hotels, resorts, villas, apartments and private homes depending on location and availability.",
+          "Response times vary according to distance, traffic, current demand and medical priority. The team can provide an estimated arrival time after receiving your location and basic medical details.",
+          "For the fastest coordination, send the accommodation name, room number when applicable, telephone number and Google Maps location through WhatsApp.",
         ],
       },
     ],
     symptoms: [
-      "Dehydration",
+      "Dehydration and dry mouth",
       "Persistent vomiting",
-      "Diarrhoea",
-      "Weakness",
-      "Heat-related illness",
+      "Diarrhoea and fluid loss",
+      "Weakness and dizziness",
       "Reduced oral fluid intake",
+      "Heat-related illness",
+      "Dark or reduced urine",
+      "Food poisoning symptoms",
+      "Gastroenteritis symptoms",
+      "Headache associated with dehydration",
     ],
     benefits: [
-      "Medical assessment first",
-      "Treatment at accommodation",
-      "Professional monitoring",
-      "English-speaking team",
-      "Clear aftercare advice",
-      "Hospital referral if required",
+      "Medical assessment before treatment",
+      "English-speaking medical care",
+      "Hotel, villa and apartment visits",
+      "Professional monitoring during treatment",
+      "Individual treatment decisions",
+      "Clear aftercare instructions",
+      "Hospital referral when required",
+      "Available day and night, subject to availability",
     ],
     faq: [
       {
-        question: "Can I order an IV drip without seeing a doctor?",
+        question: "Can I request an IV drip without seeing a doctor?",
         answer:
-          "No. IV therapy should only be provided after a medical assessment confirms that it is appropriate and safe.",
+          "No. IV therapy should only be provided after a medical assessment confirms that it is appropriate and safe for your condition.",
       },
       {
-        question: "Can IV therapy be given at my hotel?",
+        question: "Can IV therapy be provided in my hotel room?",
         answer:
-          "Yes, when medically appropriate and operationally possible, treatment may be provided at your hotel or accommodation.",
+          "Yes, when the doctor determines that accommodation-based treatment is clinically suitable and the visit can be arranged for your location.",
       },
       {
         question: "Does an IV drip cure food poisoning?",
         answer:
-          "IV fluids do not cure the underlying cause, but they may help manage dehydration. The doctor will assess whether other treatment is required.",
+          "IV fluids may help manage dehydration, but they do not automatically treat the underlying cause. The doctor will assess whether other treatment or tests are needed.",
+      },
+      {
+        question: "How do I know whether I need IV fluids?",
+        answer:
+          "A doctor must assess your symptoms, hydration status, ability to drink, medical history and examination findings. Many patients can rehydrate orally and do not need an IV.",
+      },
+      {
+        question: "How long does an IV drip take?",
+        answer:
+          "Treatment time varies according to the fluid prescribed, the patient's condition and the required infusion rate. The medical team will monitor you throughout treatment.",
+      },
+      {
+        question: "Can medication be added to the IV drip?",
+        answer:
+          "Medication is only considered when clinically indicated after examination. It is not automatically added to every IV treatment.",
+      },
+      {
+        question: "Is IV therapy safe for everyone?",
+        answer:
+          "No. Some heart, kidney and fluid-balance conditions may make IV fluids inappropriate. Patients should disclose all medical conditions, allergies and regular medication.",
+      },
+      {
+        question: "Can children receive IV therapy at a hotel?",
+        answer:
+          "Children require careful medical assessment. Depending on age, symptoms and severity, hospital-based care may be safer and more appropriate.",
+      },
+      {
+        question: "Can IV therapy help after vomiting and diarrhoea?",
+        answer:
+          "It may help restore fluids when dehydration is present and oral intake is not sufficient. The doctor must first assess the cause and severity of symptoms.",
+      },
+      {
+        question: "Will travel insurance cover IV treatment?",
+        answer:
+          "Coverage depends on your policy and insurance provider. Keep medical documents, invoices and receipts, and confirm reimbursement requirements directly with your insurer.",
+      },
+      {
+        question: "When should I go to hospital instead of having an IV at my hotel?",
+        answer:
+          "Hospital care may be necessary for severe dehydration, confusion, fainting, blood in vomit or stool, severe abdominal pain, unstable vital signs or rapidly worsening symptoms.",
+      },
+      {
+        question: "When should I call an ambulance?",
+        answer:
+          "Call 112 immediately for severe breathing difficulty, chest pain, unconsciousness, stroke symptoms, seizures, uncontrolled bleeding, major trauma or another life-threatening emergency.",
       },
     ],
     relatedPages: [
       {
-        title: "Dehydration Treatment",
+        title: "Dehydration Treatment Fethiye",
         href: "/dehydration-treatment-fethiye",
       },
       {
-        title: "Food Poisoning Doctor",
+        title: "Food Poisoning Doctor Fethiye",
         href: "/food-poisoning-doctor-fethiye",
       },
       {
-        title: "Home Visit Doctor",
+        title: "Gastroenteritis Doctor Fethiye",
+        href: "/gastroenteritis-doctor-fethiye",
+      },
+      {
+        title: "Hotel Doctor Fethiye",
+        href: "/hotel-doctor-fethiye",
+      },
+      {
+        title: "Home Visit Doctor Fethiye",
         href: "/home-visit-doctor-fethiye",
+      },
+      {
+        title: "Emergency Doctor Fethiye",
+        href: "/emergency-doctor-fethiye",
       },
     ],
   },
