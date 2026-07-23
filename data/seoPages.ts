@@ -813,85 +813,202 @@ export const seoPages: SeoPage[] = [
 
   {
     slug: "food-poisoning-doctor-fethiye",
-    title: "Food Poisoning Doctor in Fethiye",
+    title: "Food Poisoning Doctor Fethiye",
     metaTitle:
       "Food Poisoning Doctor Fethiye | Hotel and Home Medical Visit",
     metaDescription:
-      "Suffering from vomiting, diarrhoea or stomach pain in Fethiye? Contact an English-speaking food poisoning doctor for a hotel or home visit.",
-    eyebrow: "Stomach Illness Medical Care",
-    heading: "Food Poisoning Treatment in Fethiye",
+      "Vomiting, diarrhoea or stomach pain in Fethiye? Contact an English-speaking food poisoning doctor for a private hotel, villa or home visit.",
+    eyebrow: "Private Care for Stomach Illness",
+    heading: "English-Speaking Food Poisoning Doctor in Fethiye",
     introduction:
-      "Food poisoning and gastroenteritis are common causes of illness during travel. Symptoms may begin suddenly and can lead to dehydration, weakness and severe discomfort. Calis Doctor provides private medical assessments for tourists experiencing stomach illness in Fethiye.",
+      "Food poisoning and gastroenteritis can begin suddenly and quickly disrupt a holiday. Calis Doctor provides private English-speaking medical assessments for tourists, families and international residents experiencing vomiting, diarrhoea, abdominal pain, nausea, weakness or dehydration in Fethiye and Çalış Beach. Where appropriate, a doctor may visit your hotel, villa, apartment or holiday accommodation and explain the safest next steps clearly.",
+
     sections: [
       {
-        title: "Symptoms of food poisoning",
+        title: "Private medical assessment for food poisoning symptoms",
         content: [
-          "Common symptoms include nausea, vomiting, diarrhoea, stomach cramps, fever, weakness and loss of appetite.",
-          "The severity and cause can vary. A medical assessment helps determine whether supportive care is sufficient or further investigation is needed.",
+          "Food poisoning is usually caused by contaminated food or drink, although similar symptoms may also result from viral gastroenteritis, bacterial infection, medication side effects or another digestive problem. Because the symptoms can overlap, a medical assessment is useful when illness is severe, persistent or causing dehydration.",
+          "During a hotel or home visit, the doctor will ask when the symptoms started, what food or drink may have been consumed, how often vomiting or diarrhoea is occurring and whether there are warning signs such as blood, fainting, severe pain or high fever.",
+          "The doctor may also check temperature, pulse, blood pressure, oxygen level, hydration status and abdominal findings. Treatment recommendations are based on the individual patient's symptoms, medical history, age, allergies and overall condition.",
         ],
       },
       {
-        title: "Treatment and hydration",
+        title: "Common symptoms of food poisoning",
         content: [
-          "Treatment depends on your symptoms, hydration level and overall condition. The doctor may recommend oral hydration, medication, dietary advice or further testing.",
-          "IV fluids may be considered when dehydration is significant and the patient cannot tolerate oral fluids.",
+          "Typical symptoms include nausea, vomiting, diarrhoea, abdominal cramps, bloating, loss of appetite, weakness and fever. Some patients also experience headache, dizziness, chills or muscle aches.",
+          "Symptoms may begin within a few hours of eating contaminated food, but certain infections can take several days to appear. The timing alone does not always identify the cause.",
+          "Many mild cases improve with rest and oral hydration. Medical review becomes more important when symptoms are intense, the patient cannot keep fluids down or there are signs of significant dehydration.",
         ],
       },
       {
-        title: "Warning signs",
+        title: "Preventing and treating dehydration",
         content: [
-          "Seek urgent medical attention for blood in stool or vomit, severe abdominal pain, confusion, fainting, high persistent fever or symptoms of severe dehydration.",
-          "Young children, elderly patients, pregnant patients and people with chronic illnesses may require earlier medical review.",
+          "Vomiting and diarrhoea can cause rapid fluid and electrolyte loss, especially in hot weather. Signs of dehydration include dry mouth, strong thirst, dizziness, reduced urination, dark urine, weakness and a rapid heartbeat.",
+          "Frequent small sips of oral rehydration solution are often easier to tolerate than large amounts of plain water. Patients should avoid alcohol and may need to limit very sugary, fatty or spicy foods until symptoms settle.",
+          "IV fluids may be considered only after a medical assessment confirms that they are appropriate. An IV drip does not cure the underlying infection, but it may help manage dehydration when oral fluids cannot be tolerated.",
+        ],
+      },
+      {
+        title: "Medication and antibiotic use",
+        content: [
+          "Medication may be recommended to help control nausea, vomiting, abdominal discomfort or other symptoms when clinically appropriate. The doctor will consider your medical history, allergies and current medicines before making a recommendation.",
+          "Antibiotics are not required for every case of food poisoning. Many illnesses are viral or self-limiting, and unnecessary antibiotics can cause side effects and contribute to antibiotic resistance.",
+          "Patients should not use leftover antibiotics or medication prescribed for another person. Treatment should follow an individual medical assessment and clear dosage instructions.",
+        ],
+      },
+      {
+        title: "When food poisoning requires urgent medical care",
+        content: [
+          "Seek urgent medical assessment for blood in vomit or stool, severe or localised abdominal pain, persistent high fever, repeated fainting, confusion, severe weakness or inability to keep any fluids down.",
+          "Very low urine output, worsening dizziness, rapid heartbeat and unusual drowsiness can indicate significant dehydration. Young children, older adults, pregnant patients and people with chronic illnesses may become unwell more quickly.",
+          "Call Turkey's emergency number 112 immediately for loss of consciousness, severe breathing difficulty, seizures, shock, rapidly worsening symptoms or another life-threatening condition.",
+        ],
+      },
+      {
+        title: "Food poisoning care for children and families",
+        content: [
+          "Children can become dehydrated more quickly than adults. Parents should monitor drinking, urine output, alertness, fever and how frequently vomiting or diarrhoea is occurring.",
+          "Warning signs in children include unusual sleepiness, no tears when crying, a very dry mouth, sunken eyes, reduced wet nappies or urination, breathing difficulty and inability to keep fluids down.",
+          "A private accommodation visit can be more comfortable for families, but serious symptoms may still require paediatric or hospital assessment. The doctor will explain when further care is necessary.",
+        ],
+      },
+      {
+        title: "Hotel, villa and apartment visits in Fethiye",
+        content: [
+          "Calis Doctor may provide medical visits to hotels, resorts, villas, apartments, Airbnb properties and private residences across Çalış Beach and Fethiye, depending on location and availability.",
+          "When requesting a visit, send your name, accommodation details, room number if applicable, a Google Maps location pin and a short description of the symptoms.",
+          "Arrival time depends on traffic, distance, current demand and medical team availability. The team can provide practical information after receiving your details.",
+        ],
+      },
+      {
+        title: "Travel insurance and medical documentation",
+        content: [
+          "Some travel insurance policies may cover unexpected medical treatment abroad. Coverage and reimbursement rules vary between insurers and policies.",
+          "Keep invoices, medical reports, prescriptions and receipts if you intend to make a claim. Your insurer may request these documents as evidence of the consultation and treatment.",
+          "Certain insurers require patients to contact an assistance line before receiving private treatment. Checking your policy conditions can help prevent difficulties with reimbursement.",
+        ],
+      },
+      {
+        title: "Recovery and aftercare",
+        content: [
+          "Recovery time depends on the cause and severity of the illness. Many uncomplicated cases improve over a few days, but weakness and appetite changes may continue for longer.",
+          "Patients should gradually return to normal food as tolerated, continue hydration and follow all medical instructions. Rest is important, particularly in hot weather.",
+          "Seek further medical care if symptoms worsen, new warning signs appear, fever persists or recovery does not progress as expected.",
         ],
       },
     ],
+
     symptoms: [
-      "Nausea",
-      "Vomiting",
+      "Nausea and repeated vomiting",
       "Diarrhoea",
-      "Stomach cramps",
-      "Fever",
-      "Weakness",
-      "Dehydration",
+      "Abdominal cramps or stomach pain",
+      "Fever and chills",
+      "Weakness and fatigue",
       "Loss of appetite",
+      "Dizziness",
+      "Dry mouth and thirst",
+      "Reduced or dark-coloured urine",
+      "Signs of dehydration",
     ],
+
     benefits: [
-      "Hotel or home visit",
-      "English-speaking doctor",
-      "Hydration assessment",
-      "Treatment guidance",
-      "IV therapy when appropriate",
-      "Follow-up support",
+      "English-speaking medical assessment",
+      "Hotel, villa and apartment visits",
+      "Hydration and dehydration evaluation",
+      "Medication guidance when appropriate",
+      "IV therapy only when clinically indicated",
+      "Clear emergency warning signs",
+      "Support for tourists and families",
+      "Hospital referral when required",
     ],
+
     faq: [
       {
-        question: "How quickly does food poisoning start?",
+        question: "Can a doctor visit my hotel for food poisoning in Fethiye?",
         answer:
-          "Symptoms may begin within a few hours or several days after consuming contaminated food or drink, depending on the cause.",
+          "Yes. A private medical visit may be arranged for hotels, villas, apartments and holiday accommodation in Çalış Beach and Fethiye, depending on location and availability.",
       },
       {
-        question: "Do I need antibiotics?",
+        question: "What are the most common symptoms of food poisoning?",
         answer:
-          "Not all cases require antibiotics. A doctor should assess your symptoms and determine whether antibiotics are appropriate.",
+          "Common symptoms include nausea, vomiting, diarrhoea, abdominal cramps, fever, weakness, loss of appetite and dehydration.",
+      },
+      {
+        question: "How quickly can food poisoning symptoms begin?",
+        answer:
+          "Symptoms may start within a few hours or several days after consuming contaminated food or drink, depending on the cause.",
+      },
+      {
+        question: "Do I need antibiotics for food poisoning?",
+        answer:
+          "Not necessarily. Many cases do not require antibiotics. A doctor should assess your symptoms and determine whether antibiotic treatment is appropriate.",
+      },
+      {
+        question: "Can IV fluids be given at my hotel?",
+        answer:
+          "IV fluids may be considered after a medical assessment when dehydration is significant and oral fluids cannot be tolerated. They are not automatically suitable for every patient.",
+      },
+      {
+        question: "What should I drink when I have vomiting and diarrhoea?",
+        answer:
+          "Small, frequent sips of oral rehydration solution are often helpful. A doctor should assess patients who cannot keep fluids down or show signs of dehydration.",
       },
       {
         question: "When is food poisoning dangerous?",
         answer:
-          "Severe dehydration, blood in stool or vomit, severe pain, fainting, confusion or persistent high fever require urgent medical care.",
+          "Blood in vomit or stool, severe abdominal pain, persistent high fever, confusion, fainting, very low urine output or inability to drink require urgent medical assessment.",
+      },
+      {
+        question: "Can children be assessed at our accommodation?",
+        answer:
+          "Yes. Children may be assessed during a hotel or home visit. Serious symptoms, severe dehydration or rapid deterioration may require hospital care.",
+      },
+      {
+        question: "How long does food poisoning usually last?",
+        answer:
+          "Many uncomplicated cases improve within a few days, but the duration varies depending on the cause, severity and patient's overall health.",
+      },
+      {
+        question: "Can I continue my holiday activities?",
+        answer:
+          "Rest and hydration are usually important during recovery. Avoid swimming, alcohol, prolonged sun exposure and strenuous activity until you are feeling stronger.",
+      },
+      {
+        question: "Will travel insurance cover the doctor visit?",
+        answer:
+          "Coverage depends on your insurer and policy. Keep all medical reports, invoices, prescriptions and receipts and confirm reimbursement requirements directly with your provider.",
+      },
+      {
+        question: "When should I call an ambulance?",
+        answer:
+          "Call 112 for loss of consciousness, seizures, severe breathing difficulty, shock, major bleeding or another rapidly worsening life-threatening condition.",
       },
     ],
+
     relatedPages: [
       {
-        title: "IV Therapy",
+        title: "IV Therapy Fethiye",
         href: "/iv-therapy-fethiye",
       },
       {
-        title: "Gastroenteritis Doctor",
+        title: "Gastroenteritis Doctor Fethiye",
         href: "/gastroenteritis-doctor-fethiye",
       },
       {
-        title: "Dehydration Treatment",
+        title: "Dehydration Treatment Fethiye",
         href: "/dehydration-treatment-fethiye",
+      },
+      {
+        title: "Hotel Doctor Fethiye",
+        href: "/hotel-doctor-fethiye",
+      },
+      {
+        title: "Home Visit Doctor Fethiye",
+        href: "/home-visit-doctor-fethiye",
+      },
+      {
+        title: "Child Doctor Fethiye",
+        href: "/child-doctor-fethiye",
       },
     ],
   },
