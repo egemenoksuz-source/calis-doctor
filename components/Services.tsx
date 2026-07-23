@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+import { motion } from "framer-motion";
 import {
   Activity,
   Ambulance,
@@ -15,7 +17,7 @@ import {
   Stethoscope,
   Syringe,
 } from "lucide-react";
-import { motion } from "framer-motion";
+
 import AnimatedSection from "@/components/AnimatedSection";
 
 const touristServices = [
@@ -24,36 +26,42 @@ const touristServices = [
     description:
       "Private medical examination and treatment directly in your hotel room.",
     icon: Hotel,
+    href: "/hotel-doctor-fethiye",
   },
   {
     title: "Holiday Home Visit",
     description:
       "Doctor visits to villas, apartments, Airbnb properties and holiday accommodation.",
     icon: House,
+    href: "/home-visit-doctor-fethiye",
   },
   {
     title: "Urgent Medical Care",
     description:
       "Fast medical assistance for sudden illness and urgent health problems.",
     icon: Ambulance,
+    href: "/emergency-doctor-fethiye",
   },
   {
     title: "Food Poisoning",
     description:
       "Assessment and treatment for nausea, vomiting, diarrhoea and dehydration.",
     icon: HeartPulse,
+    href: "/food-poisoning-doctor-fethiye",
   },
   {
     title: "Ear Infection",
     description:
       "Examination and treatment for ear pain and swimming-related infections.",
     icon: Stethoscope,
+    href: "/ear-infection-doctor-fethiye",
   },
   {
     title: "IV Therapy",
     description:
       "Intravenous fluid and supportive treatment when medically appropriate.",
     icon: Droplets,
+    href: "/iv-therapy-fethiye",
   },
 ];
 
@@ -69,6 +77,7 @@ const residentServices = [
     description:
       "Medical support for adults, children and families living in the area.",
     icon: Baby,
+    href: "/child-doctor-fethiye",
   },
   {
     title: "Blood Tests",
@@ -81,6 +90,7 @@ const residentServices = [
     description:
       "Consultation and prescription support when clinically appropriate.",
     icon: Pill,
+    href: "/tourist-doctor-fethiye",
   },
   {
     title: "Chronic Condition Follow-Up",
@@ -174,6 +184,7 @@ export default function Services() {
           </p>
         </AnimatedSection>
 
+        {/* TOURIST SERVICES */}
         <div className="mt-16">
           <AnimatedSection direction="left">
             <div className="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
@@ -197,9 +208,9 @@ export default function Services() {
                 whileHover={{
                   x: 5,
                 }}
-                href="https://wa.me/905519354800"
+                href="https://wa.me/905519354800?text=Hello%2C%20I%20need%20a%20doctor%20visit%20in%20Fethiye."
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="font-black text-cyan-700 transition hover:text-cyan-900"
               >
                 Request a doctor visit →
@@ -231,7 +242,7 @@ export default function Services() {
                   transition={{
                     duration: 0.25,
                   }}
-                  className="group relative overflow-hidden rounded-[2rem] border border-slate-200/80 bg-white p-7 shadow-sm hover:border-cyan-200 hover:shadow-xl hover:shadow-cyan-950/10"
+                  className="group relative flex h-full flex-col overflow-hidden rounded-[2rem] border border-slate-200/80 bg-white p-7 shadow-sm transition hover:border-cyan-200 hover:shadow-xl hover:shadow-cyan-950/10"
                 >
                   <motion.div
                     initial={{
@@ -257,19 +268,18 @@ export default function Services() {
                     {service.title}
                   </h4>
 
-                  <p className="mt-3 leading-7 text-slate-600">
+                  <p className="mt-3 flex-1 leading-7 text-slate-600">
                     {service.description}
                   </p>
 
-                  <motion.a
-                    whileHover={{
-                      x: 4,
-                    }}
-                    href="#contact"
-                    className="mt-6 inline-flex text-sm font-black text-cyan-700"
+                  <Link
+                    href={service.href}
+                    aria-label={`Learn more about ${service.title}`}
+                    className="mt-6 inline-flex items-center gap-2 text-sm font-black text-cyan-700 transition hover:translate-x-1 hover:text-cyan-900"
                   >
-                    Contact doctor →
-                  </motion.a>
+                    Learn more
+                    <span aria-hidden="true">→</span>
+                  </Link>
 
                   <div className="pointer-events-none absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-cyan-100/50 opacity-0 blur-2xl transition duration-300 group-hover:opacity-100" />
                 </motion.article>
@@ -278,6 +288,7 @@ export default function Services() {
           </motion.div>
         </div>
 
+        {/* RESIDENT SERVICES */}
         <AnimatedSection delay={0.1}>
           <div className="mt-20 rounded-[2.5rem] border border-teal-100 bg-white p-7 shadow-sm sm:p-10">
             <div className="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
@@ -332,7 +343,7 @@ export default function Services() {
                     transition={{
                       duration: 0.25,
                     }}
-                    className="group relative overflow-hidden rounded-[2rem] border border-slate-200 bg-[#f7fdfd] p-7 hover:border-teal-200 hover:shadow-xl hover:shadow-teal-950/10"
+                    className="group relative flex h-full flex-col overflow-hidden rounded-[2rem] border border-slate-200 bg-[#f7fdfd] p-7 transition hover:border-teal-200 hover:shadow-xl hover:shadow-teal-950/10"
                   >
                     <motion.div
                       initial={{
@@ -358,19 +369,29 @@ export default function Services() {
                       {service.title}
                     </h4>
 
-                    <p className="mt-3 leading-7 text-slate-600">
+                    <p className="mt-3 flex-1 leading-7 text-slate-600">
                       {service.description}
                     </p>
 
-                    <motion.a
-                      whileHover={{
-                        x: 4,
-                      }}
-                      href="#contact"
-                      className="mt-6 inline-flex text-sm font-black text-teal-700"
-                    >
-                      Contact doctor →
-                    </motion.a>
+                    {"href" in service && service.href ? (
+                      <Link
+                        href={service.href}
+                        aria-label={`Learn more about ${service.title}`}
+                        className="mt-6 inline-flex items-center gap-2 text-sm font-black text-teal-700 transition hover:translate-x-1 hover:text-teal-900"
+                      >
+                        Learn more
+                        <span aria-hidden="true">→</span>
+                      </Link>
+                    ) : (
+                      <a
+                        href="#contact"
+                        aria-label={`Contact a doctor about ${service.title}`}
+                        className="mt-6 inline-flex items-center gap-2 text-sm font-black text-teal-700 transition hover:translate-x-1 hover:text-teal-900"
+                      >
+                        Contact doctor
+                        <span aria-hidden="true">→</span>
+                      </a>
+                    )}
 
                     <div className="pointer-events-none absolute -bottom-16 -right-16 h-32 w-32 rounded-full bg-teal-100/50 opacity-0 blur-2xl transition duration-300 group-hover:opacity-100" />
                   </motion.article>

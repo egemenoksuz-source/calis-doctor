@@ -1,21 +1,26 @@
 import type { MetadataRoute } from "next";
+import { seoPages } from "@/data/seoPages";
+
+const baseUrl = "https://calisdoctor.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://calisdoctor.com";
+  const currentDate = new Date();
 
-  const pages = [
-    "",
-    "/doctor-calis-beach",
-    "/english-speaking-doctor-calis",
-    "/hotel-doctor-calis",
-    "/home-visit-doctor-calis",
-    "/emergency-doctor-calis",
+  const homePage: MetadataRoute.Sitemap = [
+    {
+      url: baseUrl,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 1,
+    },
   ];
 
-  return pages.map((page) => ({
-    url: `${baseUrl}${page}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly",
-    priority: page === "" ? 1 : 0.9,
+  const servicePages: MetadataRoute.Sitemap = seoPages.map((page) => ({
+    url: `${baseUrl}/${page.slug}`,
+    lastModified: currentDate,
+    changeFrequency: "monthly",
+    priority: 0.8,
   }));
+
+  return [...homePage, ...servicePages];
 }
