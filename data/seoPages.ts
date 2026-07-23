@@ -1015,85 +1015,202 @@ export const seoPages: SeoPage[] = [
 
   {
     slug: "ear-infection-doctor-fethiye",
-    title: "Ear Infection Doctor in Fethiye",
+    title: "Ear Infection Doctor Fethiye",
     metaTitle:
       "Ear Infection Doctor Fethiye | Ear Pain After Swimming",
     metaDescription:
-      "Ear pain or blocked ears after swimming? Contact an English-speaking doctor in Fethiye for hotel or home assessment and treatment.",
-    eyebrow: "Ear Pain and Swimming-Related Infections",
-    heading: "Ear Infection Treatment in Fethiye",
+      "Ear pain, blocked ears or discharge after swimming in Fethiye? Contact an English-speaking doctor for a private hotel, villa or home visit.",
+    eyebrow: "Private Care for Ear Pain and Swimmer's Ear",
+    heading: "English-Speaking Ear Infection Doctor in Fethiye",
     introduction:
-      "Ear pain after swimming is a common problem during beach holidays. Water trapped in the ear canal can contribute to irritation or infection. Our doctors assess ear pain, discharge, blocked ears and reduced hearing at hotels and homes across Fethiye.",
+      "Ear pain, blocked ears and swimmer's ear are common problems during beach holidays. Calis Doctor provides private English-speaking medical assessments for tourists, families and international residents experiencing ear pain, discharge, reduced hearing, itching, fever or dizziness in Fethiye and Çalış Beach. Where appropriate, a doctor may visit your hotel, villa, apartment or holiday accommodation and explain the safest treatment plan clearly.",
+
     sections: [
       {
-        title: "Swimmer's ear and ear infections",
+        title: "Private assessment for ear pain and ear infections",
         content: [
-          "Swimmer's ear usually affects the outer ear canal and may cause pain, itching, swelling or discharge.",
-          "Middle-ear infections can cause deeper pain, fever, pressure and reduced hearing. Correct examination is important because treatment differs.",
+          "Ear symptoms can have several causes, including swimmer's ear, middle-ear infection, earwax blockage, pressure changes, irritation, trauma or a problem affecting the eardrum. Because treatment differs according to the cause, examination is important before using ear drops or antibiotics.",
+          "During a hotel or home visit, the doctor will ask when the pain started, whether swimming or flying may be related, whether there is discharge, fever, hearing loss, dizziness or recent cold symptoms and whether the patient has had previous ear problems.",
+          "The doctor may examine the ear canal and eardrum, check temperature and assess nearby areas such as the throat and lymph nodes. Treatment recommendations are based on the examination findings, age, medical history, allergies and current medicines.",
         ],
       },
       {
-        title: "Medical examination",
+        title: "Swimmer's ear after the pool or sea",
         content: [
-          "The doctor will examine the ear and assess symptoms such as fever, discharge, hearing changes and dizziness.",
-          "Treatment may include ear drops, pain relief or other medication depending on the diagnosis.",
+          "Swimmer's ear is an infection or inflammation of the outer ear canal. It often develops after water remains trapped in the ear following swimming in the sea or pool.",
+          "Symptoms may include pain when touching or pulling the outer ear, itching, swelling, discharge, a blocked sensation and reduced hearing. The pain can become intense if the inflammation progresses.",
+          "Keeping the ear dry and avoiding further swimming are usually important during recovery. Patients should not insert cotton buds, fingers or other objects into the ear canal.",
         ],
       },
       {
-        title: "Protecting your ear while recovering",
+        title: "Middle-ear infection and pressure-related pain",
         content: [
-          "Patients may be advised to keep the ear dry and avoid swimming until symptoms improve.",
-          "Do not insert cotton buds or other objects into the ear canal, as this may worsen irritation or injury.",
+          "A middle-ear infection may cause deeper ear pain, pressure, fever, reduced hearing and symptoms following a cold or respiratory infection. Children are especially prone to middle-ear infections.",
+          "Air travel, diving and rapid pressure changes can also cause ear pain or a blocked sensation. These symptoms may result from pressure injury rather than infection.",
+          "A medical examination helps distinguish between outer-ear infection, middle-ear infection, pressure-related problems and earwax blockage so that treatment is appropriate.",
+        ],
+      },
+      {
+        title: "Ear drops, pain relief and antibiotics",
+        content: [
+          "Treatment may include suitable ear drops, pain relief, advice to keep the ear dry or other medication depending on the diagnosis. Not every ear problem requires antibiotics.",
+          "Certain ear drops should not be used if the eardrum may be perforated. For this reason, patients should avoid using leftover or over-the-counter drops without an appropriate examination.",
+          "Antibiotics are prescribed only when clinically indicated. The doctor will consider allergies, previous reactions and the likely cause of the symptoms before recommending treatment.",
+        ],
+      },
+      {
+        title: "Blocked ears and earwax",
+        content: [
+          "A blocked sensation or reduced hearing may be caused by earwax rather than infection. Swimming can cause existing wax to swell and make the blockage feel worse.",
+          "Patients should not attempt to remove wax with cotton buds, hairpins or other objects, as this can push it deeper or injure the ear canal and eardrum.",
+          "The doctor can assess whether wax is present and advise on the safest next step. Removal may require appropriate equipment or referral to a suitable clinic.",
+        ],
+      },
+      {
+        title: "Ear infections in children",
+        content: [
+          "Children may show ear pain by crying, touching the ear, sleeping poorly, becoming irritable or refusing food. Fever, discharge and reduced responsiveness to sound may also occur.",
+          "A private accommodation visit can be more comfortable for families, but serious symptoms may require paediatric or hospital assessment.",
+          "Parents should seek urgent care for unusual drowsiness, swelling behind the ear, severe headache, neck stiffness, breathing difficulty, seizures or a rapidly worsening condition.",
+        ],
+      },
+      {
+        title: "When ear symptoms require urgent medical care",
+        content: [
+          "Urgent assessment is important for severe dizziness, sudden significant hearing loss, facial weakness, swelling or redness behind the ear, severe headache, persistent high fever or blood coming from the ear.",
+          "Ear pain following a major head injury, diving accident or suspected foreign object also requires prompt medical evaluation.",
+          "Call Turkey's emergency number 112 for loss of consciousness, seizures, serious head trauma, severe breathing difficulty or another life-threatening condition.",
+        ],
+      },
+      {
+        title: "Hotel, villa and apartment visits in Fethiye",
+        content: [
+          "Calis Doctor may provide ear assessments at hotels, resorts, villas, apartments, Airbnb properties and private residences across Çalış Beach and Fethiye, depending on location and availability.",
+          "When requesting a visit, send your name, accommodation details, room number if applicable, a Google Maps location pin and a brief description of the symptoms.",
+          "Arrival time depends on traffic, distance, current demand and medical team availability. The team can provide practical information after receiving your details.",
+        ],
+      },
+      {
+        title: "Swimming, flying and recovery advice",
+        content: [
+          "Patients are commonly advised to avoid swimming and keep the affected ear dry until symptoms have improved and treatment is complete.",
+          "Flying or diving may worsen pressure-related pain in some conditions. The doctor can advise whether travel plans should be adjusted based on the examination.",
+          "Seek further medical care if pain becomes worse, discharge develops, hearing decreases, fever persists or symptoms fail to improve as expected.",
         ],
       },
     ],
+
     symptoms: [
       "Ear pain",
-      "Blocked ear",
+      "Pain after swimming",
+      "Blocked ear sensation",
       "Reduced hearing",
       "Ear discharge",
-      "Itching",
+      "Itching in the ear canal",
       "Fever",
-      "Pain after swimming",
-      "Dizziness",
+      "Dizziness or imbalance",
+      "Pressure after flying or diving",
+      "Pain when touching the outer ear",
     ],
+
     benefits: [
-      "Ear examination",
-      "Hotel and home visits",
-      "English-speaking doctor",
-      "Treatment advice",
-      "Prescription support",
-      "Follow-up guidance",
+      "English-speaking medical assessment",
+      "Hotel, villa and apartment visits",
+      "Ear canal and eardrum examination",
+      "Treatment guidance based on diagnosis",
+      "Prescription support when appropriate",
+      "Advice about swimming and flying",
+      "Child-friendly assessment",
+      "Hospital or specialist referral when required",
     ],
+
     faq: [
+      {
+        question: "Can a doctor visit my hotel for ear pain in Fethiye?",
+        answer:
+          "Yes. A private medical visit may be arranged for hotels, villas, apartments and holiday accommodation in Çalış Beach and Fethiye, depending on location and availability.",
+      },
       {
         question: "Can swimming cause an ear infection?",
         answer:
-          "Yes. Moisture in the ear canal can create conditions that encourage irritation and infection, commonly known as swimmer's ear.",
+          "Yes. Water trapped in the outer ear canal can contribute to irritation and infection, commonly known as swimmer's ear.",
       },
       {
-        question: "Should I continue swimming?",
+        question: "What are the symptoms of swimmer's ear?",
         answer:
-          "It is generally advisable to keep the affected ear dry until it has been medically assessed and symptoms have improved.",
+          "Common symptoms include pain when touching the outer ear, itching, swelling, discharge, reduced hearing and a blocked sensation.",
       },
       {
-        question: "Can I use antibiotic ear drops myself?",
+        question: "Should I keep swimming with an ear infection?",
         answer:
-          "Ear drops should be selected after examination because some products are not appropriate when the eardrum may be damaged.",
+          "It is usually advisable to keep the ear dry and avoid swimming until the ear has been assessed and symptoms have improved.",
+      },
+      {
+        question: "Can I use ear drops without seeing a doctor?",
+        answer:
+          "It is safer to have the ear examined first because some drops are unsuitable when the eardrum may be perforated or the diagnosis is uncertain.",
+      },
+      {
+        question: "Do all ear infections need antibiotics?",
+        answer:
+          "No. Treatment depends on whether the problem affects the outer ear, middle ear or has another cause. Antibiotics are used only when clinically appropriate.",
+      },
+      {
+        question: "Can earwax cause pain or hearing loss after swimming?",
+        answer:
+          "Yes. Water can cause existing earwax to swell, leading to blockage, discomfort and reduced hearing.",
+      },
+      {
+        question: "Can children be examined at our accommodation?",
+        answer:
+          "Yes. Children may be assessed during a hotel or home visit. Serious symptoms or complications may require hospital or specialist care.",
+      },
+      {
+        question: "Is ear discharge always an infection?",
+        answer:
+          "Not always. Discharge may be caused by infection, irritation, injury or a perforated eardrum. Medical examination is recommended.",
+      },
+      {
+        question: "Can I fly with an ear infection?",
+        answer:
+          "Flying may worsen pressure and pain in some ear conditions. A doctor can advise based on the examination and severity of symptoms.",
+      },
+      {
+        question: "When is ear pain urgent?",
+        answer:
+          "Sudden significant hearing loss, facial weakness, swelling behind the ear, severe dizziness, high fever, blood from the ear or severe headache require urgent assessment.",
+      },
+      {
+        question: "How long does an ear infection take to improve?",
+        answer:
+          "Recovery time varies according to the cause and severity. Seek further care if symptoms worsen or do not improve as expected.",
       },
     ],
+
     relatedPages: [
       {
-        title: "Hotel Doctor",
+        title: "Hotel Doctor Fethiye",
         href: "/hotel-doctor-fethiye",
       },
       {
-        title: "Child Doctor",
+        title: "Home Visit Doctor Fethiye",
+        href: "/home-visit-doctor-fethiye",
+      },
+      {
+        title: "Child Doctor Fethiye",
         href: "/child-doctor-fethiye",
       },
       {
-        title: "Tourist Doctor",
+        title: "Tourist Doctor Fethiye",
         href: "/tourist-doctor-fethiye",
+      },
+      {
+        title: "Emergency Doctor Fethiye",
+        href: "/emergency-doctor-fethiye",
+      },
+      {
+        title: "Dehydration Treatment Fethiye",
+        href: "/dehydration-treatment-fethiye",
       },
     ],
   },
